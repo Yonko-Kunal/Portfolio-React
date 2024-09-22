@@ -1,0 +1,104 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Hero img {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+}
+
+.Hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.Hero h1 span {
+    background: linear-gradient(159deg, rgba(158, 130, 210, 1) 0%, rgba(75, 41, 199, 1) 51%, rgba(1, 1, 107, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+
+}
+
+.Hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.Hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(159deg, rgba(158, 130, 210, 1) 0%, rgba(75, 41, 199, 1) 51%, rgba(1, 1, 107, 1) 100%);
+    cursor: pointer;
+}
+
+.Hero-connect:hover {
+    border: 2px solid white;
+    box-shadow: 40px 0 100px rgba(75, 41, 199, 0.728), -40px 0 100px rgba(1, 1, 107, 0.747);
+}
+
+.Hero-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.Hero-resume:hover {
+    border-color: rgba(75, 41, 199, 1);
+}
+
+@media(max-width:768px) {
+
+    .Hero img {
+        margin-bottom: 70px;
+        width: 260px;
+    }
+
+    .Hero h1 {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .Hero p {
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .Hero-action {
+        gap: 16px;
+        font-size: 18px;
+        margin-bottom: 50px;
+        font-weight: 500;
+    }
+
+    .Hero-connect {
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .Hero-resume {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+
+}
