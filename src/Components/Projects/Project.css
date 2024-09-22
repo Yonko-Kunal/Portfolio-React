@@ -98,3 +98,22 @@
     }
 
 }
+
+@media(max-width:500px) {
+    .project {
+        gap: 50px;
+        margin: 45px 65px;
+        align-items: start;
+    }
+
+    .project-title h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .show-more-projects {
+        padding: 20px 40px;
+        font-size: 13px;
+        margin: 10px auto;
+    }
+}

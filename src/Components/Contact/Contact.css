@@ -168,3 +168,47 @@
 
 
 }
+
+@media(max-width:500px) {
+    .contact {
+        gap: 50px;
+        margin: 45px 65px;
+        align-items: start;
+    }
+
+    .contact-title h1 {
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .contact-section {
+        gap: 50px;
+    }
+
+    .contact-left h1 {
+        font-size: 35px;
+    }
+
+    .contact-left p {
+        font-size: 13px;
+    }
+
+    .contact-right label {
+        font-size: 16px;
+    }
+
+    .contact-right input {
+        width: 100%;
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .contact-right textarea {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .contact-submit {
+        font-size: 15px;
+    }
+}
