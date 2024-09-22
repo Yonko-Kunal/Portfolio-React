@@ -24,7 +24,7 @@ const Navebar = () => {
                 <div className='nav-mob-close' onClick={closeMenu}><i class="fa-solid fa-xmark" ></i></div>
                 <li><AnchorLink className='anchor-list' href='#homeId'><p>Home</p></AnchorLink></li>
                 <li><AnchorLink className='anchor-list' offset={50} href='#aboutId'><p>About Me</p></AnchorLink></li>
-                <li><AnchorLink className='anchor-list' offset={50} href='#projectId'><p>Portfilio</p></AnchorLink></li>
+                <li><AnchorLink className='anchor-list' offset={50} href='#projectId'><p>Portfolio</p></AnchorLink></li>
                 <li><AnchorLink className='anchor-list' offset={50} href='#contactId'><p>Contact</p></AnchorLink></li>
             </ul>
             <div className='nav-right'>

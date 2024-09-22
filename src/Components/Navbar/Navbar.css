@@ -121,6 +121,9 @@
         margin-top: 50px;
         margin-right: 5px;
         font-size: 20px;
+    }
 
+    .nav-menu li {
+        font-size: 20px;
     }
 }
