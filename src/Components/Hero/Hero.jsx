@@ -4,9 +4,13 @@ import profile_img from '../../assets/profile-photo.jpeg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
+
+    const gitLinkFunction = () => {
+        window.open('https://github.com/Yonko-Kunal', '_blank')
+    };
     return (
         <div id='homeId' className='Hero'>
-            <img src={profile_img} alt="" />
+            <img onClick={gitLinkFunction} src={profile_img} alt="" />
             <h1><span>Hi I'm Kunal Roy,</span> Web Developer From Delhi, India</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero alias quas amet, quaerat porro ducimus voluptas</p>
             <div className="Hero-action">
