@@ -6,19 +6,19 @@
 @font-face {
   font-family: 'sf-regular';
   src:
-    url('src/assets/fonts/SF-Pro-Text-Regular.ttf');
+    url('src/assets/fonts/SF-Pro-Text-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'sf-light';
   src:
-    url('src/assets/fonts/SF-Pro-Text-Light.ttf');
+    url('src/assets/fonts/SF-Pro-Text-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'sf-semibold';
   src:
-    url('src/assets/fonts/SF-Pro-Text-Semibold.ttf');
+    url('src/assets/fonts/SF-Pro-Text-Semibold.ttf') format('truetype');
 }
 
 body {
@@ -27,6 +27,7 @@ body {
   color: white;
   user-select: none;
 }
+
 
 p {
   font-family: 'sf-light';
