@@ -174,13 +174,23 @@
             text-align: justify;
         }
 
+        .about-para p {
+            font-family: 'sf-light';
+            font-size: 14px;
+            line-height: 27px;
+            margin: 5px 0px;
+            letter-spacing: 1px;
+            text-align: left;
+        }
+
         .about-skill {
             gap: 0;
         }
 
         .about-skill p {
-            font-size: 15px;
+            font-size: 14px;
             min-width: 100px;
+            font-weight: lighter;
         }
 
         .about-skill hr {

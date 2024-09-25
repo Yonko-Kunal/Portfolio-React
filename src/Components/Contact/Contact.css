@@ -190,9 +190,12 @@
     }
 
     .contact-left p {
-        font-size: 18px;
-        line-height: 30px;
-        text-align: justify;
+        font-family: 'sf-light';
+        font-size: 14px;
+        line-height: 27px;
+        margin: 5px 0px;
+        letter-spacing: 1px;
+        text-align: left;
     }
 
     .contact-right label {
@@ -200,9 +203,13 @@
     }
 
     .contact-right input {
-        width: 100%;
+        width: 97%;
         font-size: 16px;
         height: 50px;
+    }
+
+    .contact-detail i {
+        font-size: 17px;
     }
 
     .contact-right textarea {

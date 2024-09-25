@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="profile-img">
                 <img onClick={gitLinkFunction} src={profile_img} alt="" />
             </div>
-            <h1><span>Hi I'm Kunal Roy,</span> Web Developer From Delhi, India</h1>
+            <h1><span>Kunal Roy</span></h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero alias quas amet, quaerat porro ducimus voluptas</p>
             <div className="Hero-action">
                 <div className="Hero-connect"><AnchorLink className='anchor-list' offset={50} href='#contactId'>Connect With Me</AnchorLink></div>
