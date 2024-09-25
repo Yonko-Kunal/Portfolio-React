@@ -7,4 +7,5 @@ body {
   font-family: 'outfit';
   background-color: #151513;
   color: white;
+  user-select: none;
 }

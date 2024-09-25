@@ -20,14 +20,18 @@ const Navebar = () => {
     return (
         <div className='Navbar'>
             <div className="nav-mob-open" onClick={openMenu}><i class="fa-solid fa-bars"></i></div>
-            <ul ref={menuRef} className="nav-menu">
-                <div className='nav-mob-close' onClick={closeMenu}><i class="fa-solid fa-xmark" ></i></div>
-                <hr className='nav-line' />
-                <li><AnchorLink onClick={closeMenu} className='anchor-list' href='#homeId'><p>Home</p></AnchorLink></li><hr className='nav-line' />
-                <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#aboutId'><p>About Me</p></AnchorLink></li><hr className='nav-line' />
-                <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#projectId'><p>Portfolio</p></AnchorLink></li><hr className='nav-line' />
-                <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#contactId'><p>Contact</p></AnchorLink></li><hr className='nav-line' />
-            </ul>
+            <nav>
+                <ul ref={menuRef} className="nav-menu">
+                    <div className='nav-mob-close' onClick={closeMenu}><i class="fa-solid fa-xmark" ></i></div>
+                    <hr className='nav-line' />
+                    <li><AnchorLink onClick={closeMenu} className='anchor-list' href='#homeId'><p>Home</p></AnchorLink></li><hr className='nav-line' />
+                    <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#aboutId'><p>About Me</p></AnchorLink></li><hr className='nav-line' />
+                    <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#projectId'><p>Portfolio</p></AnchorLink></li><hr className='nav-line' />
+                    <li><AnchorLink onClick={closeMenu} className='anchor-list' offset={50} href='#contactId'><p>Contact</p></AnchorLink></li><hr className='nav-line' />
+                </ul>
+
+            </nav>
+
             <div className='nav-right'>
                 <div className="git-logo"><i onClick={gitLinkFunction} class="fa-brands fa-github"></i></div>
                 <div className="nav-connect"><AnchorLink className='anchor-list' offset={50} href='#contactId'>Connect With Me</AnchorLink></div>
