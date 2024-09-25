@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    position: relative;
 }
 
 .Hero img {
@@ -71,6 +72,17 @@
     .Hero img {
         margin-bottom: 70px;
         width: 260px;
+    }
+
+    .Hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 44px;
+        background-color: #fff;
+        z-index: -1;
     }
 
     .Hero h1 {
