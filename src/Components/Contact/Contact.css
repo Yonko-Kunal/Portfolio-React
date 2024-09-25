@@ -172,7 +172,7 @@
 @media(max-width:500px) {
     .contact {
         gap: 50px;
-        margin: 45px 65px;
+        margin: 45px 35px;
         align-items: start;
     }
 
@@ -190,7 +190,9 @@
     }
 
     .contact-left p {
-        font-size: 13px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
     }
 
     .contact-right label {

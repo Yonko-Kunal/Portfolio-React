@@ -159,7 +159,7 @@
     @media(max-width:500px) {
         .about {
             gap: 50px;
-            margin: 45px 65px;
+            margin: 45px 35px;
             align-items: start;
         }
 
@@ -169,8 +169,9 @@
         }
 
         .about-para {
-            font-size: 12px;
-            line-height: 28px;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: justify;
         }
 
         .about-skill {
