@@ -102,7 +102,7 @@
 @media(max-width:500px) {
     .project {
         gap: 50px;
-        margin: 45px 65px;
+        margin: 45px 35px;
         align-items: start;
     }
 
