@@ -35,7 +35,7 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's Talk</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo impedit debitis aliquid cupiditate voluptas iure culpa est accusamus, error perspiciatis?</p>
+                    <p>If you like my work, please do contact lets work together. </p>
                     <div className="contact-detail-container">
                         <div className="contact-detail">
                             <i className="fa-solid fa-envelope"></i> <p>kunalroy267483@gmail.com</p>
