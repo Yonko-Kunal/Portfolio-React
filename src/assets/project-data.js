@@ -1,6 +1,7 @@
 import project1_img from '../assets/project-data/rocket.jpeg'
 import project2_img from '../assets/project-data/weather.jpeg'
 import project3_img from '../assets/project-data/music.jpeg'
+import project4_img from '../assets/project-data/homeP E-com.png'
 
 const myProjects = [
     {
@@ -20,6 +21,12 @@ const myProjects = [
         w_name: "music player",
         w_img: project3_img,
         w_link: "https://yonko-kunal.github.io/MusicWeb/",
+    },
+    {
+        w_no: 4,
+        w_name: "E-commerce",
+        w_img: project4_img,
+        w_link: "https://yonko-ecommerce.netlify.app/",
     }
 ]
 

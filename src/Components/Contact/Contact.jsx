@@ -38,13 +38,13 @@ const Contact = () => {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo impedit debitis aliquid cupiditate voluptas iure culpa est accusamus, error perspiciatis?</p>
                     <div className="contact-detail-container">
                         <div className="contact-detail">
-                            <i class="fa-solid fa-envelope"></i> <p>kunalroy267483@gmail.com</p>
+                            <i className="fa-solid fa-envelope"></i> <p>kunalroy267483@gmail.com</p>
                         </div>
                         <div className="contact-detail">
-                            <i class="fa-solid fa-phone"></i> <p>+91 9870429459</p>
+                            <i className="fa-solid fa-phone"></i> <p>+91 9870429459</p>
                         </div>
                         <div className="contact-detail">
-                            <i class="fa-solid fa-location-dot"></i> <p>Delhi, India</p>
+                            <i className="fa-solid fa-location-dot"></i> <p>Delhi, India</p>
                         </div>
                     </div>
                 </div>
