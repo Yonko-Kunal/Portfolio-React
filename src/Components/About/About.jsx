@@ -31,18 +31,18 @@ const About = () => {
             </div>
             <div className='scroll-skills'>
                 <div className="scroll-items-container">
-                    <img src={react_logo} alt="React Logo" />
-                    <img src={html_logo} alt="HTML Logo" />
-                    <img src={css_logo} alt="CSS Logo" />
-                    <img src={redux_logo} alt="Redux Logo" />
-                    <img src={postman_logo} alt="Postman Logo" />
+                    <img loading="lazy" src={react_logo} alt="React Logo" />
+                    <img loading="lazy" src={html_logo} alt="HTML Logo" />
+                    <img loading="lazy" src={css_logo} alt="CSS Logo" />
+                    <img loading="lazy" src={redux_logo} alt="Redux Logo" />
+                    <img loading="lazy" src={postman_logo} alt="Postman Logo" />
                 </div>
                 <div className="scroll-items-container">
-                    <img src={react_logo} alt="React Logo" />
-                    <img src={html_logo} alt="HTML Logo" />
-                    <img src={css_logo} alt="CSS Logo" />
-                    <img src={redux_logo} alt="Redux Logo" />
-                    <img src={postman_logo} alt="Postman Logo" />
+                    <img loading="lazy" src={react_logo} alt="React Logo" />
+                    <img loading="lazy" src={html_logo} alt="HTML Logo" />
+                    <img loading="lazy" src={css_logo} alt="CSS Logo" />
+                    <img loading="lazy" src={redux_logo} alt="Redux Logo" />
+                    <img loading="lazy" src={postman_logo} alt="Postman Logo" />
                 </div>
             </div>
             <div className="about-achievement-container">

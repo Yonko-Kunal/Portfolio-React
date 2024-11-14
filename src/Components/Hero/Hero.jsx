@@ -20,7 +20,7 @@ const Hero = () => {
     return (
         <div id='homeId' className='Hero'>
             <div className="profile-img">
-                <img onClick={gitLinkFunction} src={profile_img} alt="" />
+                <img loading="lazy" onClick={gitLinkFunction} src={profile_img} alt="" />
             </div>
             <h1><span>Kunal Roy</span></h1>
             <p></p>
