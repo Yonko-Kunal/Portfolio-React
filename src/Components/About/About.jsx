@@ -6,6 +6,7 @@ import html_logo from '../../assets/html-logo.svg'
 import css_logo from '../../assets/css-logo.svg'
 import redux_logo from '../../assets/redux-logo.svg'
 import postman_logo from '../../assets/postman-logo.svg'
+import tailwind_logo from '../../assets/tailwind.svg'
 
 const About = () => {
     return (
@@ -19,7 +20,7 @@ const About = () => {
                 </div> */}
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am a BCA graduate passionate about web development. I build functional, visually appealing websites with clean code and user-focused design. I am dedicated to learning new technologies and creating solutions that meet user needs and industry standards.</p>
+                        <p>I am a BCA graduate learning software engineering. I build good quality and visually appealing websites with clean code and user-focused design. I also use AI, which allows me to build websites faster. I am very interested in having an opportunity to work on a real-world project and collaborate with other people, which will allow me to grow as a productive software engineer. Currently, I’m learning backend development while actively building real-world projects.</p>
                     </div>
                     {/* <div className="about-skill-container">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: '70%' }} /></div>
@@ -36,6 +37,7 @@ const About = () => {
                     <img loading="lazy" src={css_logo} alt="CSS Logo" />
                     <img loading="lazy" src={redux_logo} alt="Redux Logo" />
                     <img loading="lazy" src={postman_logo} alt="Postman Logo" />
+                    <img loading="lazy" src={tailwind_logo} alt="Tailwind Logo" />
                 </div>
                 <div className="scroll-items-container">
                     <img loading="lazy" src={react_logo} alt="React Logo" />
@@ -43,9 +45,10 @@ const About = () => {
                     <img loading="lazy" src={css_logo} alt="CSS Logo" />
                     <img loading="lazy" src={redux_logo} alt="Redux Logo" />
                     <img loading="lazy" src={postman_logo} alt="Postman Logo" />
+                    <img loading="lazy" src={tailwind_logo} alt="Tailwind Logo" />
                 </div>
             </div>
-            <div className="about-achievement-container">
+            {/* <div className="about-achievement-container">
                 <div className="about-achievement">
                     <h1>2+</h1>
                     <p>YEARS OF EXPERIENCE</p>
@@ -60,7 +63,7 @@ const About = () => {
                     <h1>2+</h1>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

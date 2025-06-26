@@ -42,6 +42,12 @@
     font-weight: 500;
 }
 
+.about-para p {
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
+}
+
 .scroll-skills {
     overflow: hidden;
     white-space: nowrap;
@@ -160,6 +166,12 @@
         line-height: 32px;
     }
 
+    .about-para p {
+        text-align: justify;
+        text-align-last: left;
+        hyphens: auto;
+    }
+
     .about-skill {
         gap: 20px;
         align-content: center;
@@ -215,6 +227,9 @@
             margin: 5px 0px;
             letter-spacing: 1px;
             text-align: left;
+            text-align: justify;
+            text-align-last: left;
+            hyphens: auto;
         }
 
         .about-skill {

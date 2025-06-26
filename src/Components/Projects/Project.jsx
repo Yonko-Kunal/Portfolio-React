@@ -3,6 +3,11 @@ import './Project.css'
 import myProjects from '../../assets/project-data'
 
 const Project = () => {
+
+    const gitLinkFunction = () => {
+        window.open('https://github.com/Yonko-Kunal?tab=repositories', '_blank')
+    }
+
     return (
         <div id='projectId' className='project'>
             <div className="project-title">
@@ -13,8 +18,9 @@ const Project = () => {
                     return <img loading='lazy' onClick={() => window.open(work.w_link, '_blank')} key={index} src={work.w_img} alt="" />
                 })}
             </div>
-            <div className="show-more-projects">
-                <p>Show More</p>
+
+            <div className="show-more-projects" onClick={gitLinkFunction}>
+                <p>Repositories</p>
             </div>
 
         </div>
