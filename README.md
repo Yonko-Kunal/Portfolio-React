@@ -5,7 +5,7 @@
 A modern, responsive personal portfolio website built with React. Showcases your skills, projects, and contact information in a visually appealing and interactive way.
 
 ## ✨ Features
-- Responsive design for desktop, tablet, and mobile
+- Responsive design for desktop and mobile
 - Animated hero section
 - About Me with skills and achievements
 - Project portfolio with images
