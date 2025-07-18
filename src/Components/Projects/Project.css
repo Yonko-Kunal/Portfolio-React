@@ -21,7 +21,7 @@
     padding: 5rem 10rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
     gap: 20px;
     align-items: stretch;
 }
@@ -71,7 +71,6 @@
     cursor: pointer;
     transition: 0.3s;
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
