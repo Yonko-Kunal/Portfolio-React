@@ -15,7 +15,7 @@ const Project = () => {
             </div>
             <div className="project-container">
                 {myProjects.map((work, index) => {
-                    return <img loading='lazy' onClick={() => window.open(work.w_link, '_blank')} key={index} src={work.w_img} alt="" />
+                    return <img className={`div${index + 1}`} loading='lazy' onClick={() => window.open(work.w_link, '_blank')} key={index} src={work.w_img} alt="" />
                 })}
             </div>
 

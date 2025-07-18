@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/my-removebg.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Resume_path from '../../../public/Resume/Kunal_Resume.pdf'
+import Resume_path from '../../../public/Resume/Kunal_Roy_Resume_WebDev.pdf'
 
 const Hero = () => {
 
@@ -14,7 +14,7 @@ const Hero = () => {
         // Replace the URL with the path to your resume file
         const link = document.createElement('a');
         link.href = Resume_path; // Ensure this path matches the location of your PDF
-        link.download = 'Kunal_Resume.pdf'; // The name of the file when downloaded
+        link.download = 'Kunal_Roy_Resume_WebDev.pdf'; // The name of the file when downloaded
         link.click();
     }
     return (
