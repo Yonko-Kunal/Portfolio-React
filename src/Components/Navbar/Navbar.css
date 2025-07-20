@@ -31,6 +31,21 @@
     margin-left: 50px;
 }
 
+.linkedin-logo {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.1);
+}
+
 .git-logo:hover {
     transform: scale(1.1);
 }
